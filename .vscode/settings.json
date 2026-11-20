@@ -1,0 +1,6 @@
+{
+  // The workspace root tracks no code of its own; every subdirectory is a
+  // checkout with its own repository. Do not scan below this folder so the
+  // nested sub-repos do not appear in Source Control.
+  "git.repositoryScanMaxDepth": 0
+}

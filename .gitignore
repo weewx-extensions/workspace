@@ -1,0 +1,11 @@
+# This repository tracks only the workspace-level agent guidance.
+#
+# Every subdirectory is a checkout with its own repository (aqi-xtype,
+# development-tools, jas, healthchecks, pushover, test) or a symlink into a WeeWX
+# release. Nothing below this directory belongs to this repository.
+/*
+!/.gitignore
+!/.vscode/
+!/AGENTS.md
+!/status-all.sh
+!/README.md
