@@ -8,11 +8,11 @@ what is true across repositories; each repository's own `AGENTS.md` holds its de
 
 | Directory | What it is |
 | --- | --- |
-| `aqi-xtype/` | WeeWX extension adding an air-quality index type. |
+| `aqi-xtype/` | WeeWX extension that uses Xtypes to derive the air-quality index from PM2.5/PM10, currently US EPA algorithm only. |
 | `development-tools/` | The shared development toolkit: CI workflows, tools, configs, docs and workflow templates, and a sample extension. |
-| `jas/` | WeeWX extension. |
-| `healthchecks/` | WeeWX extension reporting health checks. |
-| `pushover/` | WeeWX extension sending notifications. |
+| `jas/` | WeeWX extension: a dashboard that renders charts (ApexCharts/ECharts) from MQTT-sourced data, with historical and zoom support. |
+| `healthchecks/` | WeeWX extension that reports start/success/fail signals to Healthchecks.io. |
+| `pushover/` | WeeWX extension that sends alerts via Pushover. |
 | `test/` | Sample extension the development toolkit is exercised against. |
 
 ## Order of a cross-repo change
